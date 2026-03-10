@@ -1,14 +1,31 @@
-# First-Journey-Audit
+# First-Journey-Audit# First Journey Audit
 
-`First-Journey-Audit` is a tiny local prototype for auditing a landing page against a fixed click-to-activation rubric. It fetches a URL, extracts readable page content, optionally includes local onboarding notes, and prints a structured prompt you can paste into ChatGPT, Codex, or another LLM.
+First Journey Audit is a lightweight prototype for evaluating the path from landing page to onboarding.
 
-The project is intentionally narrow:
+It analyzes the "first journey" a user takes — from first click to first meaningful action — and surfaces the highest-leverage friction points across:
 
-- one script
-- one fixed rubric
-- one fixed expert prompt
-- no API calls
-- no product surface beyond local command-line usage
+- clarity of value proposition
+- trust and credibility
+- CTA motivation
+- confusion and cognitive load
+- onboarding momentum
+
+The system produces structured audit recommendations designed to be **specific, practical, and implementation-ready**.
+
+## Why this project exists
+
+This repo is also an experiment in a **Karpathy-style improvement loop**.
+
+Instead of asking AI for generic advice, the system uses:
+
+- a **fixed audit rubric**
+- a **constrained prompt**
+- **structured output**
+- a **narrow editable surface**
+
+Over time, the audit logic can be iteratively improved while keeping the rubric stable.
+
+The goal is to turn product judgment and conversion expertise into a **repeatable optimization loop**.
 
 ## Install
 
